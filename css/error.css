@@ -1,0 +1,57 @@
+div#error-bg {
+  height: 300px;
+  margin-bottom: 50px;
+  background-image: url("../img/page-history-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  position: relative; }
+  div#error-bg .container {
+    position: relative; }
+  div#error-bg h1 {
+    color: #ffffff; }
+  div#error-bg .breadcrumb {
+    display: inline-block;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 20px; }
+    div#error-bg .breadcrumb a {
+      color: #ffffff;
+      font-size: 20px;
+      line-height: 20px; }
+    div#error-bg .breadcrumb a:hover {
+      text-decoration: none; }
+    div#error-bg .breadcrumb a.click {
+      color: #eb1b2b; }
+
+div#error-bg:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #464751;
+  opacity: 0.7; }
+
+.error-box {
+  text-align: center;
+  max-width: 750px;
+  margin: 150px auto;
+  padding: 40px 60px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); }
+  .error-box h2 {
+    font-family: "Baskerville";
+    font-size: 30px; }
+  .error-box h3 {
+    font-family: "Baskerville";
+    font-size: 28px;
+    color: #eb1b2b;
+    font-weight: bolder;
+    padding-bottom: 30px; }
+  .error-box p {
+    font-size: 16px;
+    line-height: 16px; }
+
+/*# sourceMappingURL=error.css.map */

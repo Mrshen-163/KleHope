@@ -1,0 +1,114 @@
+$mainColor: #eb1b2b;
+$black: #000000;
+$background: #464751;
+$bgColor:#eee9e9;
+
+.container-fluid {
+  .row {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+h1 {
+  font-family: 'Baskerville';
+  font-weight: bolder;
+  font-size: 48px;
+}
+p {
+  font-size: 18px;
+  line-height: 18px;
+}
+.heading {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+@media all and (max-width: 576px){
+  h1,h2 {
+    font-size: 24px;
+  }
+  p{
+    font-size: 16px;
+    line-height: 16px;
+  }
+  a{
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+
+//.page-loading {
+//  display: inline-block;
+//  font-size: 30px;
+//  vertical-align: top;
+//  -webkit-transition: .3s color, .3s border;
+//  transition: .3s color, .3s border;
+//  position: absolute;
+//  left: 50%;
+//  top: 50%;
+//  margin-left: -35px;
+//  margin-top: -25px;
+//}
+//.page-loader {
+//  display: inline-block;
+//  width: 1em;
+//  height: 1em;
+//  color: inherit;
+//  font-size: 70px;
+//  line-height: 200px;
+//  vertical-align: middle;
+//  pointer-events: none;
+//}
+//.page-loader {
+//  position: relative;
+//}
+//.page-loader:before,
+//.page-loader:after {
+//  content: '';
+//  display: block;
+//  position: absolute;
+//  background-color: $mainColor;
+//  left: 50%;
+//  right: 0;
+//  top: 0;
+//  bottom: 50%;
+//  box-shadow: -.5em 0 0 $mainColor;
+//  -webkit-animation: page-loader 1s linear infinite;
+//  animation: page-loader 1s linear infinite;
+//}
+//.page-loader:after {
+//  top: 50%;
+//  bottom: 0;
+//  -webkit-animation-delay: .25s;
+//  animation-delay: .25s;
+//}
+//@-webkit-keyframes page-loader {
+//  0%, 100% {
+//    box-shadow: -.5em 0 0 transparent;
+//    background-color: $mainColor;
+//  }
+//  50% {
+//    box-shadow: -.5em 0 0 $mainColor;
+//    background-color: transparent;
+//  }
+//}
+//@keyframes page-loader {
+//  0%, 100% {
+//    box-shadow: -.5em 0 0 transparent;
+//    background-color: $mainColor;
+//  }
+//  50% {
+//    box-shadow: -.5em 0 0 $mainColor;
+//    background-color: transparent;
+//  }
+//}
+
+

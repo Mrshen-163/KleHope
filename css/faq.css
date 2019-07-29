@@ -1,0 +1,125 @@
+div#faq-bg {
+  height: 300px;
+  margin-bottom: 50px;
+  background-image: url("../img/page-history-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  position: relative; }
+  div#faq-bg .container {
+    z-index: 99; }
+  div#faq-bg h1 {
+    color: #ffffff; }
+  div#faq-bg .breadcrumb {
+    display: inline-block;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 20px; }
+    div#faq-bg .breadcrumb a {
+      color: #ffffff;
+      font-size: 20px;
+      line-height: 20px; }
+    div#faq-bg .breadcrumb a:hover {
+      text-decoration: none; }
+    div#faq-bg .breadcrumb a.click {
+      color: #eb1b2b; }
+
+div#faq-bg:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #464751;
+  opacity: 0.7; }
+
+#accordion-left .card,
+#accordion-right .card {
+  border: none;
+  background: none; }
+#accordion-left .card-header,
+#accordion-right .card-header {
+  padding-left: 0;
+  border: none;
+  background: none; }
+#accordion-left .card-body,
+#accordion-right .card-body {
+  box-shadow: 8px 8px 8px #888888; }
+#accordion-left button,
+#accordion-right button {
+  color: #000000;
+  font-family: "Baskerville";
+  font-weight: bolder;
+  font-size: 16px; }
+
+.faq-contact {
+  margin-top: 50px;
+  text-align: center;
+  background-image: url("../img/achievement-bg.jpg");
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 30px; }
+  .faq-contact h2 {
+    font-size: 26px;
+    margin: 0 auto;
+    font-family: "Baskerville";
+    font-weight: bolder;
+    position: relative;
+    color: #ffffff;
+    margin-bottom: 20px; }
+  .faq-contact form {
+    position: relative;
+    background: transparent;
+    border: none; }
+    .faq-contact form button {
+      padding: 15px 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      display: inline-block;
+      text-transform: uppercase;
+      transition: all 0.2s;
+      cursor: pointer; }
+    .faq-contact form button:hover {
+      background-color: #ffffff;
+      color: #e40943;
+      font-weight: bolder; }
+    .faq-contact form input, .faq-contact form textarea {
+      border: none;
+      outline: none;
+      display: block;
+      margin: 10px; }
+    .faq-contact form input {
+      height: 50px;
+      padding: 15px;
+      font-size: 15px;
+      color: #616161;
+      background-color: #fff;
+      border-radius: 5px; }
+
+.faq-contact:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #eb1b2b;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5; }
+
+@media all and (max-width: 992px) {
+  #accordion-left button,
+  #accordion-right button {
+    font-weight: bolder;
+    font-size: 14px; } }
+@media all and (max-width: 992px) {
+  #accordion-left button,
+  #accordion-right button {
+    font-weight: bolder;
+    font-size: 12px;
+    padding-left: 5px; } }
+
+/*# sourceMappingURL=faq.css.map */

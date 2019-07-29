@@ -1,0 +1,53 @@
+.moveUp {
+    -webkit-animation: moveUp;
+    animation: moveUp;
+}
+.moveDown {
+    -webkit-animation: moveDown;
+    animation: moveDown;
+}
+.moveLeft{
+    -webkit-animation: moveLeft;
+    animation: moveLeft;
+}
+.moveRight{
+    -webkit-animation: moveRight;
+    animation: moveRight;
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+
+        transform: translateY(0)
+    }
+}
+@keyframes moveDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+
+        transform: translateY(100%);
+    }
+}
+@keyframes moveLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+
+        transform: translateX(100%);
+    }
+}
+@keyframes moveRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,251 @@
+div#blog-bg {
+  height: 300px;
+  margin-bottom: 100px;
+  background-image: url("../img/page-history-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  position: relative; }
+  div#blog-bg .container {
+    z-index: 99; }
+  div#blog-bg h1 {
+    color: #ffffff; }
+  div#blog-bg .breadcrumb {
+    display: inline-block;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 20px; }
+    div#blog-bg .breadcrumb a {
+      color: #ffffff;
+      font-size: 20px;
+      line-height: 20px; }
+    div#blog-bg .breadcrumb a:hover {
+      text-decoration: none; }
+    div#blog-bg .breadcrumb a.click {
+      color: #eb1b2b; }
+
+div#blog-bg:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #464751;
+  opacity: 0.7; }
+
+.blog {
+  margin-bottom: 100px; }
+  .blog .content p {
+    font-size: 16px;
+    line-height: 22px; }
+  .blog .content blockquote {
+    border: 3px dashed #ddd;
+    padding: 25px;
+    margin: 0;
+    margin-bottom: 10px; }
+    .blog .content blockquote p {
+      font-size: 20px;
+      line-height: 20px; }
+  .blog .content ul {
+    padding-left: 0; }
+    .blog .content ul li {
+      display: block;
+      font-size: 18px;
+      line-height: 20px; }
+  .blog h4 {
+    font-family: "Baskerville";
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0; }
+  .blog ul {
+    padding: 0; }
+  .blog li {
+    display: inline-block; }
+    .blog li a {
+      color: #000000;
+      font-size: 18px;
+      line-height: 18px;
+      transition: all 0.5s; }
+    .blog li a:hover {
+      text-decoration: none;
+      color: #eb1b2b; }
+    .blog li i {
+      color: #eb1b2b; }
+  .blog ul.share {
+    padding: 15px 20px;
+    background-color: #fafafa;
+    padding-left: 30px; }
+    .blog ul.share li.ico-share {
+      display: inline;
+      background: none;
+      color: #000000;
+      font-weight: bolder;
+      font-size: 20px;
+      padding-right: 20px; }
+      .blog ul.share li.ico-share i {
+        color: #000000; }
+    .blog ul.share li.ico-share:hover {
+      background: #ffffff; }
+    .blog ul.share li {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      display: inline-block;
+      background: #778793;
+      color: #fff;
+      border-radius: 50%;
+      transition: all 0.5s; }
+      .blog ul.share li i {
+        color: #ffffff; }
+    .blog ul.share li:hover {
+      background: #eb1b2b; }
+
+.comments {
+  margin-top: 50px; }
+  .comments .item {
+    position: relative;
+    padding-left: 75px;
+    margin: 30px 0;
+    border-bottom: 1px solid #fff3f3; }
+    .comments .item .header-image {
+      position: absolute;
+      left: 0;
+      top: 0; }
+    .comments .item span {
+      display: block;
+      font-size: 15px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      color: #616161; }
+    .comments .item p {
+      font-size: 16px;
+      line-height: 20px; }
+  .comments .item:last-child {
+    border: none; }
+
+.comment-here form input.form-control:focus,
+.comment-here form input.form-control:hover,
+.comment-here .form-control:hover,
+.comment-here .form-control:focus {
+  border-color: #eb1b2b;
+  box-shadow: none; }
+.comment-here .btn-primary {
+  display: inline-block;
+  background-color: #eb1b2b;
+  color: #ffffff;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid #eb1b2b;
+  border-radius: 3px;
+  margin-top: 20px;
+  transition: all 0.5s; }
+.comment-here .btn-primary:hover {
+  border-color: #eb1b2b;
+  box-shadow: none;
+  background-color: #ffffff;
+  color: #eb1b2b; }
+
+.sidebar h4.title {
+  position: relative;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  padding-left: 10px; }
+.sidebar h4.title:first-child {
+  margin-top: 0; }
+.sidebar h4.title:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -1px;
+  height: 100%;
+  width: 3px;
+  background: #eb1b2b; }
+.sidebar form {
+  position: relative; }
+  .sidebar form .form-control {
+    border: 1px solid #eee;
+    font-size: 16px;
+    height: 50px;
+    padding: 15px;
+    color: #616161;
+    background-color: #fff;
+    border-radius: 5px; }
+  .sidebar form input.form-control:focus,
+  .sidebar form input.form-control:hover,
+  .sidebar form .form-control:hover,
+  .sidebar form .form-control:focus {
+    box-shadow: none; }
+  .sidebar form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    width: 55px;
+    cursor: pointer;
+    background: #eb1b2b;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0; }
+.sidebar .post-item {
+  position: relative;
+  padding-left: 105px;
+  margin-bottom: 20px; }
+  .sidebar .post-item .post-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90px; }
+    .sidebar .post-item .post-image img {
+      max-width: 100%; }
+  .sidebar .post-item h5 {
+    font-size: 15px;
+    margin-bottom: 3px;
+    line-height: 22px;
+    font-family: "Baskerville"; }
+    .sidebar .post-item h5 a {
+      color: #000000;
+      transition: all 0.6s; }
+    .sidebar .post-item h5 a:hover {
+      text-decoration: none;
+      color: #eb1b2b; }
+  .sidebar .post-item span {
+    display: block;
+    font-size: 14px;
+    color: #616161; }
+    .sidebar .post-item span i {
+      color: #eb1b2b; }
+.sidebar ul {
+  padding: 0; }
+.sidebar li {
+  display: block;
+  padding: 5px 0; }
+  .sidebar li a {
+    color: #000000;
+    font-size: 18px;
+    line-height: 18px;
+    transition: all 0.2s; }
+  .sidebar li a:hover {
+    text-decoration: none;
+    color: #eb1b2b;
+    padding-left: 10px; }
+  .sidebar li i {
+    color: #000000; }
+.sidebar p {
+  font-size: 16px;
+  font-style: italic; }
+
+@media all and (max-width: 768px) {
+  div#blog-bg {
+    margin-bottom: 50px; }
+
+  .sidebar {
+    margin-top: 50px; } }
+
+/*# sourceMappingURL=blog.css.map */

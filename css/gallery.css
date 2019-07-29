@@ -1,0 +1,63 @@
+body {
+  background: #f0f2f5; }
+
+div#gallery-bg {
+  height: 300px;
+  margin-bottom: 50px;
+  background-image: url("../img/page-history-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  position: relative; }
+  div#gallery-bg .container {
+    z-index: 99; }
+  div#gallery-bg h1 {
+    color: #ffffff; }
+  div#gallery-bg .breadcrumb {
+    display: inline-block;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 20px; }
+    div#gallery-bg .breadcrumb a {
+      color: #ffffff;
+      font-size: 20px;
+      line-height: 20px; }
+    div#gallery-bg .breadcrumb a:hover {
+      text-decoration: none; }
+    div#gallery-bg .breadcrumb a.click {
+      color: #eb1b2b; }
+
+div#gallery-bg:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #464751;
+  opacity: 0.7; }
+
+.gallery {
+  margin: 50px auto; }
+
+.grid {
+  background: #DDD; }
+
+.grid-item {
+  margin: 1%;
+  width: 31%;
+  float: left;
+  overflow: hidden; }
+  .grid-item img {
+    width: 100%;
+    transition: all 0.5s; }
+  .grid-item img:hover {
+    transform: scale(1.2); }
+
+@media all and (max-width: 992px) {
+  .grid-item {
+    width: 47%;
+    float: left; } }
+
+/*# sourceMappingURL=gallery.css.map */

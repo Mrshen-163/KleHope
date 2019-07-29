@@ -1,0 +1,101 @@
+div#contact-bg {
+  height: 300px;
+  margin-bottom: 100px;
+  background-image: url("../img/page-history-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  position: relative; }
+  div#contact-bg .container {
+    z-index: 99; }
+  div#contact-bg h1 {
+    color: #ffffff; }
+  div#contact-bg .breadcrumb {
+    display: inline-block;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 20px; }
+    div#contact-bg .breadcrumb a {
+      color: #ffffff;
+      font-size: 20px;
+      line-height: 20px; }
+    div#contact-bg .breadcrumb a:hover {
+      text-decoration: none; }
+    div#contact-bg .breadcrumb a.click {
+      color: #eb1b2b; }
+
+div#contact-bg:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #464751;
+  opacity: 0.7; }
+
+.map {
+  margin-bottom: 50px; }
+
+form.left {
+  font-weight: bolder; }
+  form.left label {
+    display: block; }
+  form.left textarea {
+    width: 100%;
+    border-radius: 3px; }
+  form.left input:focus,
+  form.left input:hover,
+  form.left textarea:hover,
+  form.left textarea:focus {
+    border-color: #eb1b2b;
+    box-shadow: none; }
+  form.left textarea:focus {
+    outline: none; }
+  form.left input[type='submit'] {
+    display: inline-block;
+    background-color: #eb1b2b;
+    color: #ffffff;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid #eb1b2b;
+    border-radius: 3px;
+    margin-top: 20px; }
+  form.left input[type='submit']:hover {
+    background-color: #ffffff;
+    color: #eb1b2b; }
+
+.contact-info {
+  padding: 50px;
+  box-shadow: 0px 0px 15px #bbb; }
+  .contact-info h2 {
+    font-family: "Baskerville";
+    font-size: 28px;
+    margin-bottom: 30px; }
+  .contact-info p {
+    line-height: 24px; }
+  .contact-info ul {
+    color: #eb1b2b; }
+  .contact-info span, .contact-info a {
+    color: #000000;
+    transition: all 0.5s; }
+  .contact-info a:hover {
+    color: #eb1b2b; }
+
+@media all and (max-width: 992px) {
+  div#contact-bg {
+    margin-bottom: 60px; }
+
+  .map {
+    display: none; } }
+@media all and (max-width: 768px) {
+  .contact-info {
+    margin-top: 30px; } }
+@media all and (max-width: 576px) {
+  .heading {
+    margin-bottom: 30px; } }
+
+/*# sourceMappingURL=contact.css.map */
